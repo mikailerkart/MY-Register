@@ -239,6 +239,8 @@ else if (interaction.isButton()) {
 
         message.delete()
 
+        interaction.reply({content: "Kayıt iptal edildi", ephemeral: true})
+
     }
 
     if (interaction.customId === 'kızkayıtiptal'){
@@ -246,6 +248,8 @@ else if (interaction.isButton()) {
         let message = interaction.message
 
         message.delete()
+
+        interaction.reply({content: "Kayıt iptal edildi", ephemeral: true})
 
     }
 
